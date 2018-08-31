@@ -1,0 +1,66 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid grey;
+    text-align: center;
+    padding: 2px;
+    background-color: #2f92d7;
+    color: yellow;
+}
+
+td{
+    border: 1px solid grey;
+    text-align: center;
+    padding: 2px;
+}
+
+tr:nth-child(odd) {
+    background-color: #e8e8e8;
+}
+tr:nth-child(even) {
+    background-color: #c6cec9;
+}
+#overflowTest {
+    overflow: auto;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 15px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+#  background-color: #39656a;
+ background-color: #56795C;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+
+input:checked + .slider {
+#  background-color:	#1fe9ff;
+  background-color: #31ff1f;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 50%;
+}
+
+.test{
+	width: 90%;
+}
