@@ -5,4 +5,4 @@ As a first application, I am extending my previous FPGA sevquencer git, https://
 
 To get a rough idea, a screenshot "web_app.png" is included in the folder. The different configuration inputs are enterd and uploaded to the server with a set of different options. For example, FPGA configuration file is loaded to the FPGA by assigning the name of the .bit file. The files can be stored on the RPi separately to have faster communication. The other parts shown in the screenshot displays a basic layout of a sequence generator. Complex structures can easily be added. At the moment, the software side interface is completed. By clicking "Load seqeunce" button, the settings are stored in a file named "setting.txt" placed in the RPi.
 
-The progress is ongoing to eshtablish SPI communication with FPGA to transfer all text file data.
+The SPI communication is utilized to the send stored data to FPGA. The pulse pattern is triggered by software by running a small python script, "trig.py".
